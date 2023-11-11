@@ -35,10 +35,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-		.package(
-			url: "https://github.com/mfcollins3/openssl-apple.git",
-			.upToNextMajor(from: "0.1.0")
-		)
+        .package(url: "https://github.com/lake-of-fire/openssl-apple.git", branch: "main"),
     ],
     targets: [
         .target(
