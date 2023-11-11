@@ -47,8 +47,8 @@ let package = Package(
                 "CSSH2",
                 "libssh2",
 				.product(name: "OpenSSL", package: "openssl-apple")
-            ]
-        ),
+            ],
+            swiftSettings: [.interoperabilityMode(.Cxx)]),
         .target(
             name: "CSSH2",
             publicHeadersPath: "./",
