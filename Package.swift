@@ -48,11 +48,11 @@ let package = Package(
                 "libssh2",
 				.product(name: "OpenSSL", package: "openssl-apple")
             ],
-            swiftSettings: [.interoperabilityMode(.Cxx)]),
+            swiftSettings: [.interoperabilityMode(.C)]),
         .target(
             name: "CSSH2",
             publicHeadersPath: "./",
-            swiftSettings: [.interoperabilityMode(.Cxx)]),
+            swiftSettings: [.interoperabilityMode(.C)]),
         .binaryTarget(
             name: "libssh2",
             url: "https://github.com/mfcollins3/libssh2-apple/releases/download/0.1.0/libssh2.zip",
