@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 
 // Copyright 2022 Michael F. Collins, III
 //
@@ -51,8 +51,8 @@ let package = Package(
         ),
         .target(
             name: "CSSH2",
-            publicHeadersPath: "./"
-        ),
+            publicHeadersPath: "./",
+            swiftSettings: [.interoperabilityMode(.Cxx)]),
         .binaryTarget(
             name: "libssh2",
             url: "https://github.com/mfcollins3/libssh2-apple/releases/download/0.1.0/libssh2.zip",
