@@ -3,10 +3,10 @@
     {
       "identity" : "openssl-apple",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mfcollins3/openssl-apple.git",
+      "location" : "https://github.com/lake-of-fire/openssl-apple.git",
       "state" : {
-        "revision" : "d5abe4124f62f118aa305e3cb07c0d370fe49191",
-        "version" : "0.1.1"
+        "branch" : "main",
+        "revision" : "d5abe4124f62f118aa305e3cb07c0d370fe49191"
       }
     }
   ],
