@@ -25,8 +25,8 @@ import PackageDescription
 let package = Package(
     name: "SSH2",
     platforms: [
-        .iOS(.v12),
-        .macOS(.v10_13)
+        .iOS(.v15),
+        .macOS(.v13)
     ],
     products: [
         .library(
